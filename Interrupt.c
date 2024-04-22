@@ -95,7 +95,7 @@ void INT0_isr()
             return;
         }
         
-        case 2 :                            // Add your code here
+        case 2 :                            
         {
             
             if((Time_Elapsed > 4000) && (Time_Elapsed < 5000))
@@ -112,7 +112,7 @@ void INT0_isr()
             return;
         }
         
-        case 3 :                            // Add your code here
+        case 3 :                            
         {
 
             if((Time_Elapsed > 400) && (Time_Elapsed < 700))
@@ -130,7 +130,7 @@ void INT0_isr()
             return;
         }
         
-        case 4 :                            // Add your code here
+        case 4 :                           
         {
          printf("ssss");   
             if((Time_Elapsed > 400) && (Time_Elapsed < 1800))
