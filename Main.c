@@ -47,7 +47,7 @@ int rps;
 int rpm;
 int ALARMEN;
 
-char buffer[33]     = " ECE3301L Sp'21 L12\0";
+char buffer[33]     = " Title \0";
 char *nbr;
 char *txt;
 char tempC[]        = "+25";
