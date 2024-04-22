@@ -37,7 +37,7 @@ void Initialize_Screen(void)
     TFT_GreenTab_Initialize();         
     fillScreen(ST7735_BLACK);                       // Fills background of screen with color passed to it
     txt = buffer;
-    strcpy(txt, "ECE3301L Spring 21-S1");   
+    strcpy(txt, "title");   
 
     drawtext(start_x , start_y, txt, ST7735_WHITE  , ST7735_BLACK, TS_1);   
                                                     // X and Y coordinates of where the text is to be displayed
